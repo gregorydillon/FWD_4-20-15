@@ -29,6 +29,9 @@ textarea.on('keyup', calculateRemaining);
 $('form').on('submit', function (event) {
   event.preventDefault();
 
+
+
+
   var newTweet = firstTweet.clone();
 
   newTweet.find('.tweet-content').text(textarea.val());
